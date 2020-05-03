@@ -8,6 +8,6 @@ var app = express();
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 
-app.use('/', testController);
+app.use('/test', testController);
 
 app.listen(8080);

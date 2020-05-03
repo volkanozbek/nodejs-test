@@ -10,7 +10,7 @@ module.exports.test = function(req, res){
 }
 
 
-router.get('/test', module.exports.index);
+router.get('/', module.exports.index);
 router.get('/test/one', module.exports.test);
 
 module.exports = router;
