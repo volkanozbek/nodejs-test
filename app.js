@@ -4,7 +4,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 
-var testController = require('./nodeRoute');
+var testController = require('./app/routes/nodeRoute');
 
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
